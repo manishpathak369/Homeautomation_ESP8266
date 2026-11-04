@@ -66,8 +66,6 @@ The following pin mapping is used in the reconstructed Arduino sketch.
 | Relay Module | VCC | According to Module Rating | — |
 | All Modules | GND | GND | — |
 
-**Important:** These assignments are the reconstructed sketch's pin configuration, not a confirmed record of the original physical wiring. Check your actual circuit before connecting the components.
-
 ### 1. PIR Motion Sensor
 
 | PIR Pin | ESP8266 Connection |
@@ -97,8 +95,6 @@ The digital output of the sound sensor is used to detect sound triggers such as 
 | IN | D1 (GPIO5) |
 
 The relay acts as an electrically controlled switch for the connected light.
-
-**Relay configuration:** The reconstructed sketch assumes an active-LOW relay. If your relay module uses active-HIGH logic, change the relay configuration in the code.
 
 ---
 
